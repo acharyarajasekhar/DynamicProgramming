@@ -6,20 +6,6 @@ The Fibonacci numbers are the numbers in the following integer sequence.
 
 In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation
 
-    Fn = Fn-1 + Fn-2
+Fn = Fn-1 + Fn-2
+
 with seed values
-
-   F0 = 0 and F1 = 1.
-   
-                         fib(5)   
-                     /                  
-               fib(4)                fib(3)   
-             /                      /     
-         fib(3)      fib(2)         fib(2)    fib(1)
-        /             /           /      
-  fib(2)   fib(1)  fib(1) fib(0) fib(1) fib(0)
-  /    
-fib(1) fib(0)
-
-   
-Here using dynamic programming we will avoid repeated calculations.
