@@ -10,8 +10,8 @@ In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the re
 with seed values
 
    F0 = 0 and F1 = 1.
-   
-                    fib(5)   
+   
+                         fib(5)   
                      /                  
                fib(4)                fib(3)   
              /                      /     
