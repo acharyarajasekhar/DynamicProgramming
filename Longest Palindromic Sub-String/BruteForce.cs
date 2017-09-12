@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace StringPalindrome.LngPalindromicSubStr
 {
@@ -6,7 +6,7 @@ namespace StringPalindrome.LngPalindromicSubStr
     {
         static void Main(string[] args)
         {
-            LngPalindromicSubStr.BruteForce.LongestPalindrome("google");
+            LongestPalindrome("google");
             
             Console.WriteLine("\n\nPlease press any key to exit...");
             Console.ReadKey();
