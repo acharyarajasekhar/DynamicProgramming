@@ -9,3 +9,21 @@ In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the re
 Fn = Fn-1 + Fn-2
 
 with seed values
+
+   F0 = 0 and F1 = 1.
+	
+					-----fib(2)
+			------fib(3)	
+			|		-----fib(1)
+			|
+    -----fib(4)
+			|
+			|		      -----fib(1)
+	    |		------fib(2)
+					      -----fib(0)
+fib(5)
+	|		    ------fib(2)
+    -----fib(3)
+		    	------fib(1)
+			
+Here using dynamic programming we will avoid repeated calculations.
